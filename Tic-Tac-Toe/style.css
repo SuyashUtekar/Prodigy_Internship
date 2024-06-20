@@ -1,0 +1,87 @@
+body {
+    background-color: #353A47;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .tictactoe-container {
+    text-align: center;
+  }
+
+  .record_noselect {
+    color: #F0F7EE;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.5rem;
+    white-space: nowrap;
+    margin: 20px auto;
+  }
+
+  .tictactoe-container .record_noselect span{
+    color: yellow;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin-top: 20px;
+  }
+  
+  .grid-item {
+    background-color: #2B303B;
+    color: #F0F7EE;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 100px;
+  }
+  
+  .record {
+    color: #F0F7EE;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.5rem;
+    white-space: nowrap;
+    margin: 20px auto;
+  }
+  
+  .ai-select {
+    color: #F0F7EE;
+    background-color: #353A47;
+    font-size: 1rem;
+    width: 50%;
+    margin: 10px auto;
+  }
+
+  button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+
+  .message {
+    color: #ffffff; /* White text color */
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
