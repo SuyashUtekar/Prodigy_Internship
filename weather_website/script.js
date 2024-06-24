@@ -1,4 +1,4 @@
-const API = "Your_API_key";
+const API = "Your_API_key"; // you can get the API key from OpenWeatherMap Website
 
 const dayEl = document.querySelector(".default_day");
 const dateEl = document.querySelector(".default_date");
