@@ -1,4 +1,4 @@
-const API = "34fb05e73fea2f4ed580155ab9a10ee7";
+const API = "Your_API_key";
 
 const dayEl = document.querySelector(".default_day");
 const dateEl = document.querySelector(".default_date");
