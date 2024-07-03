@@ -117,7 +117,7 @@ header .navigation a:hover{
 
 .media-icons a{
     position: relative;
-    color: #171717;
+    color: #fff;
     font-size: 25px;
     transition: 0.3s;
     transition-property: transform;
